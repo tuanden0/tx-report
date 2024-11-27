@@ -1,0 +1,32 @@
+[
+    {
+      "date": "2023/06/15",
+      "amount": -720,
+      "content": "transportation"
+    },
+    {
+      "date": "2022/01/05",
+      "amount": -1000,
+      "content": "eating out"
+    },
+    {
+      "date": "2022/01/06",
+      "amount": -10000,
+      "content": "debit"
+    },
+    {
+      "date": "2022/02/03",
+      "amount": -1500,
+      "content": "dining out"
+    },
+    {
+      "date": "2022/01/25",
+      "amount": -100000,
+      "content": "rent"
+    },
+    {
+      "date": "2023/03/01",
+      "amount": 200000,
+      "content": "salary"
+    }
+]
