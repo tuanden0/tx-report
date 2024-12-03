@@ -6,6 +6,7 @@ import (
 	"log"
 
 	"github.com/tuanden0/tx-report/pkg/consts"
+	"github.com/tuanden0/tx-report/pkg/convert"
 	"github.com/tuanden0/tx-report/pkg/csv"
 	"github.com/tuanden0/tx-report/pkg/json"
 	"github.com/tuanden0/tx-report/pkg/model"
@@ -49,7 +50,7 @@ func main() {
 	}
 
 	// Convert to JSON string
-	result, err := csv.ToJSONString(periodTime, rows)
+	result, err := convert.ToJSONString(periodTime, rows)
 	if err != nil {
 		log.Fatalf("filePath[%q] cannot convert to output data due to: %v\n", filePath, err)
 	}
